@@ -68,7 +68,7 @@ header {
     border-radius: 12px;
     background-color: white;
 }
-.P-Text-Type-1{
+.h1-Text-Type{
     font-size: 30px;
     display: flex;
     justify-content: center;
@@ -76,7 +76,7 @@ header {
     color: white;
     padding-top: 25px;
 }
-.P-Text-Type-2{
+.h3-Text-Type{
     font-size: 20px;
     display: flex;
     justify-content: center;
@@ -149,7 +149,7 @@ header {
     cursor: pointer;
     margin-left: -150px;
 }
-.P-Text-Type-3{
+.Footer-Button-Text-Type{
     font-size: 20px;
     display: flex;
     justify-content: center;
