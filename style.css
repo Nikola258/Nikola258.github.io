@@ -1,0 +1,333 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-items: center;
+    height: 100px;
+    background-color: #000000;
+    grid-gap: 5px;
+    padding-left: 150px;
+    flex-direction: column;
+}
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+.Home-Front-Text{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    font-family: 'Playpen Sans', cursive;
+    font-weight: bold;
+    -webkit-text-fill-color: black;
+}
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+.Hold-New-Box{
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.header-btns{
+    color: white;
+    text-decoration: none;
+    outline: none;
+    font-size: x-large;
+    cursor: pointer;
+    -webkit-text-fill-color: rgb(242, 255, 0);
+}
+.header-btns-home{
+    color: darkviolet;
+    text-decoration: none;
+    outline: none;
+    font-size: x-large;
+    cursor: pointer;
+    width: 20%;
+    -webkit-text-fill-color: rgb(0, 153, 255);
+}
+.Text-Box-Type-1{
+    width: 600px;
+    height: 350px;
+    border-radius: 12px;
+    background-color: white;
+}
+.P-Text-Type-1{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 25px;
+}
+.P-Text-Type-2{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 25px;
+    margin-left: 45px;
+}
+.Hold-Text-Box-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hold-img-text-box-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1400px;
+}
+.Star{
+    height: 30px;
+    width: 30px;
+}
+.Button-1{
+    flex-direction: column;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 0fr repeat(0, 1fr);
+    grid-template-rows: 2fr;
+    grid-gap: 5px;
+    background-color: black;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    -webkit-text-fill-color: rgb(242, 255, 0);
+}
+.Telefoon-nummer-text{
+    display: grid;
+    width: 300px;
+    color: white;
+    margin-left: 200px;
+}
+.Email-nummer-text{
+    display: grid;
+    width: 300px;
+    color: white;
+}
+.footer-2{
+    display: grid;
+    grid-template-columns: 3fr repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 5px;
+    padding-left: 150px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+.N-Logo{
+    width: 200px;
+    margin-left: -100px;
+    padding-bottom: 50px;
+}
+.More-Button-Small{
+    color: rgb(0, 153, 255);
+    text-decoration: none;
+    outline: none;
+    font-size: medium;
+    cursor: pointer;
+    margin-left: -150px;
+}
+.P-Text-Type-3{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.About-Me-Text{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    -webkit-text-fill-color: rgb(242, 255, 0);
+    font-size: 20px;
+    margin-left: 170px;
+
+}
+.About-Front-Text{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    font-family: 'Playpen Sans', cursive;
+    font-weight: bold;
+    -webkit-text-fill-color: black;
+}
+.header-btns-about{
+    color: darkviolet;
+    text-decoration: none;
+    outline: none;
+    font-size: x-large;
+    cursor: pointer;
+    width: 20%;
+    -webkit-text-fill-color: rgb(0, 153, 255);
+}
+.About-Box-Type-1{
+    width: 600px;
+    height: 270px;
+    border-radius: 12px;
+    background-color: white;
+}
+.About-Box-Type-2{
+    width: 800px;
+    height: 325px;
+    border-radius: 12px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.hold-about-text-box-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1400px;
+}
+.About-Me{
+    display: grid;
+    width: 300px;
+    color: white;
+}
+.Contact-About-Me{
+    display: grid;
+    grid-template-columns: 3fr repeat(3, 1fr);
+    gap: 10px;
+    background-color: black;
+    padding-top: 20px;
+    margin-top: 300px;
+    padding-top: 30px;
+}
+.More-Button{
+    color: rgb(0, 153, 255);
+    text-decoration: none;
+    outline: none;
+    font-size: x-large;
+    cursor: pointer;
+}
+.Arrow-To{
+    margin-right: 10px;
+    margin-bottom: 1px;
+}
+.Contact-text{
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    -webkit-text-fill-color: rgb(242, 255, 0);
+    margin-left: 400px;
+}
+.bubble {
+    animation: bubbleAnimation 5s ease-in-out infinite;
+}
+.bubble::before {
+    animation: bubbleAnimation 5s ease-in-out infinite;
+}
+    @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+    @keyframes bubbleAnimation {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  .Text-Box-Type-2{
+    width: 800px;
+    height: 325px;
+    border-radius: 12px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.Skills-Front-Text{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    font-family: 'Playpen Sans', cursive;
+    font-weight: bold;
+    -webkit-text-fill-color: black;
+}
+.hold-skills-text-box-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1400px;
+}
+.header-btns-skills{
+    color: darkviolet;
+    text-decoration: none;
+    outline: none;
+    font-size: x-large;
+    cursor: pointer;
+    width: 20%;
+    -webkit-text-fill-color: rgb(0, 153, 255);
+}
+.Skills-Box-Type-1{
+    width: 600px;
+    height: 350px;
+    border-radius: 12px;
+    background-color: white;
+}
+.Skills-Box-Type-2{
+    width: 800px;
+    height: 500px;
+    border-radius: 12px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.Portofolio-Front-Text{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    font-family: 'Playpen Sans', cursive;
+    font-weight: bold;
+    -webkit-text-fill-color: black;
+}
+.header-btns-portofolio{
+    color: darkviolet;
+    text-decoration: none;
+    outline: none;
+    font-size: x-large;
+    cursor: pointer;
+    width: 20%;
+    -webkit-text-fill-color: rgb(0, 153, 255);
+}
