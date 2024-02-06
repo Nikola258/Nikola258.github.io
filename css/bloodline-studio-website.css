@@ -1,0 +1,40 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-items: center;
+    height: 100px;
+    background-color: #000000;
+    grid-gap: 5px;
+    padding-left: 150px;
+    flex-direction: column;
+}
+.Home-Front-Text{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    font-family: 'Playpen Sans', cursive;
+    font-weight: bold;
+    -webkit-text-fill-color: black;
+}
+.header-btns{
+    color: white;
+    text-decoration: none;
+    outline: none;
+    font-size: x-large;
+    cursor: pointer;
+    -webkit-text-fill-color: rgb(242, 255, 0);
+}
+.header-btns{
+    color: darkviolet;
+    text-decoration: none;
+    outline: none;
+    font-size: x-large;
+    cursor: pointer;
+    width: 20%;
+    -webkit-text-fill-color: rgb(0, 153, 255);
+}
